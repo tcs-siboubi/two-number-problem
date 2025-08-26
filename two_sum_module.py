@@ -1,12 +1,13 @@
 """Implementation of the two_sum problem with logging."""
 
 import logging
+from typing import List
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
 
 
-def two_sum(nums: list[int], target: int) -> list[int]:
+def two_sum(nums: List[int], target: int) -> List[int]:
     """
     Return indices of two numbers in nums that add up to target.
 
